@@ -1,0 +1,74 @@
+:root {
+	--primary-text-color: #606367;
+	--page-line-color: #edeff1;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("../assets/fonts/product-sans-bold-italic.ttf");
+	font-weight: bold;
+	font-style: italic, oblique;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("../assets/fonts/product-sans-italic.ttf");
+	font-style: italic, oblique;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("../assets/fonts/product-sans-bold.ttf");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("../assets/fonts/product-sans-regular.ttf") format("truetype");
+}
+
+body {
+	font-family: "Product Sans", sans-serif;
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: 254px 1fr 275px;
+	height: 64px;
+	border-bottom: 1px solid var(--page-line-color);
+}
+
+.navbar__brand {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navbar__hamburger {
+	margin: 0px 27px;
+}
+
+.navbar__gmail-logo {
+	margin-right: 16px;
+}
+
+.navbar__gmail-text {
+	font-size: 22px;
+	line-height: 26px;
+	color: var(--primary-text-color);
+}
+
+.navbar__hamburger-line {
+	width: 18px;
+	height: 2px;
+	background-color: var(--primary-text-color);
+	margin: 3px 0;
+}
+
+.navbar__search-bar {
+	background-color: blueviolet;
+}
+
+.navbar__g-suite {
+	background-color: coral;
+}
