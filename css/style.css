@@ -226,23 +226,22 @@ body {
 
 .menu-categories__category,
 .menu-meet__category {
-	width: 154px;
+	width: 135px;
 	position: relative;
 }
 
-.menu-categories__counter {
-	position: relative;
-}
-
-.menu-categories__counter > span,
-.menu-categories__category > span,
-.menu-meet__category > span {
+.menu-categories__counter > p,
+.menu-categories__category > p,
+.menu-meet__category > p {
 	font-family: Roboto, sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: var(--menu-text-color);
-	position: absolute;
 	top: 9px;
+}
+
+.menu-categories__counter {
+	padding-right: 15px;
 }
 
 .menu-categories__icon,
@@ -287,6 +286,11 @@ body {
 	font-size: 14px;
 	line-height: 20px;
 	margin: 24px 0px 12px 24px;
+}
+
+.view-mail {
+	display: grid;
+	grid-template-rows: 176px 1fr;
 }
 
 .view-mail__header {
@@ -334,4 +338,201 @@ body {
 
 .view-mail__header-right-buttons > img {
 	margin-right: 35px;
+}
+
+.view-mail__header-title {
+	height: 72px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid #edeff1;
+}
+
+.view-mail__header-title-left {
+	display: flex;
+	align-items: center;
+	gap: 15.5px;
+	color: #202124;
+}
+
+.view-mail__header-title-text {
+	margin-left: 88px;
+	font-size: 22px;
+	line-height: 24px;
+}
+
+.view-mail__category-card {
+	background-color: #e0e0e0;
+	display: inline-block;
+	width: 50px;
+	height: 18px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 4px;
+	color: #666666;
+}
+
+.view-mail__category-card-text {
+	font-size: 11px;
+}
+
+.view-mail__category-card-close {
+	font-size: 8px;
+}
+
+.view-mail__header-title-right > img:first-child {
+	margin-right: 24px;
+}
+
+.view-mail__header-title-right > img:last-child {
+	margin-right: 28.5px;
+}
+
+.view-mail__header-from {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.view-mail__header-from-start {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	color: #818488;
+}
+
+.view-mail__header-from-unsubscribe {
+	font-size: 10px;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-left: 3px;
+}
+
+.view-mail__header-from-to-me {
+	display: flex;
+	align-items: center;
+	margin-top: 4px;
+}
+
+.view-mail__header-from-to-me > img {
+	margin-left: 7.67px;
+}
+
+.view-mail__header-from-start strong {
+	color: #353638;
+}
+
+.view-mail__header-from-start > img {
+	margin-left: 32px;
+	margin-right: 16px;
+	width: 40px;
+	height: 40px;
+}
+
+.view-mail__header-from-end {
+	display: flex;
+	gap: 21px;
+}
+
+.view-mail__header-from-end > p {
+	font-family: Roboto, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #818488;
+}
+
+.view-mail__header-from-end > img:last-child {
+	margin-left: 8px;
+	margin-right: 34px;
+}
+
+.view-mail__body {
+	height: 100%;
+	background-color: #ebfaff;
+}
+
+.mail {
+	display: grid;
+	grid-template-rows: 370px 382px;
+	width: 660px;
+	margin: 31px auto 0px auto;
+}
+
+.mail__top {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.mail__top-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #04bdff;
+}
+
+.mail__top-left > span {
+	font-size: 40px;
+	line-height: 45px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mail__top-left > a {
+	display: flex;
+	gap: 9px;
+	width: 110px;
+	height: 36px;
+	border: 1px solid white;
+	border-radius: 4px;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+
+.mail__top-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0397cc;
+}
+
+.mail__botton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	background-color: white;
+}
+
+.mail__botton-card {
+	background-color: #04bdff;
+	width: 180px;
+	height: 254px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mail__botton-card > img {
+	width: 40px;
+	height: 40px;
+}
+
+.category-selected {
+	background-color: #fce8e7;
+}
+
+.category-selected-end {
+	background-color: #fce8e7;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
 }
