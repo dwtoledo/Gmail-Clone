@@ -15,7 +15,7 @@ This is a static clone of the Gmail user interface built using HTML and CSS. Thi
 - Demonstrates HTML and CSS skills for web development.
 
 ## Demo
-You can see a live demo of the Gmail Clone [here](https://dwtoledo.github.io/portfolio/projects/googlemail/index.html).
+You can see a live demo of the Gmail Clone [here](https://dwtoledo.github.io/gmail-html-css-clone/).
 
 ## Usage
 This project is intended for educational purposes and as a static representation of the Gmail interface.
