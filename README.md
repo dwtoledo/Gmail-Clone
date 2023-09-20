@@ -1,14 +1,14 @@
 # Static HTML & CSS Gmail Clone
-
 This is a static clone of the Gmail user interface built using HTML and CSS. This project aims to replicate the look and feel of the Gmail web application for educational purposes.
 
-## Layout
-![Screenshot 2023-09-20 153342](https://github.com/dwtoledo/gmail-html-css-clone/assets/11148858/af2fef59-0c53-46d5-8a61-8f332f5f8eee)
-
 ## Table of Contents
+- [Layout](#layout)
 - [Features](#features)
 - [Demo](#demo)
 - [Usage](#usage)
+
+## Layout
+![Screenshot 2023-09-20 153342](https://github.com/dwtoledo/gmail-html-css-clone/assets/11148858/af2fef59-0c53-46d5-8a61-8f332f5f8eee)
 
 ## Features
 - Provides a static representation of the Gmail layout and styling.
